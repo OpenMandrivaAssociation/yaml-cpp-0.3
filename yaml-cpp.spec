@@ -62,7 +62,7 @@ rm -rf % {buildroot}
 
 
 %changelog
-* Thu Oct 27 2011 Alexander Khrukin <akhrukin@mandriva.org> 0.2.7-2mdv2012.0
+* Thu Oct 27 2011 Alexander Khrukin <akhrukin@mandriva.org> 0.2.7-2
 + Revision: 707635
 - added macroses insteed of build scripts
 
