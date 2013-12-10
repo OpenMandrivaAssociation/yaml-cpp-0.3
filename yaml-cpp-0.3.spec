@@ -9,7 +9,7 @@ Summary:	A YAML parser and emitter for C++
 Group:		Development/C++
 License:	MIT
 URL:		http://code.google.com/p/yaml-cpp/
-Source0:	http://yaml-cpp.googlecode.com/files/%{name}-%{version}.tar.gz
+Source0:	http://yaml-cpp.googlecode.com/files/yaml-cpp-%{version}.tar.gz
 BuildRequires:	cmake
 
 %description
@@ -56,14 +56,3 @@ sed -i 's/\r//' license.txt
 %{_includedir}/yaml-cpp/
 %{_libdir}/*.so
 %{_libdir}/pkgconfig/*.pc
-
-
-%changelog
-* Thu Oct 27 2011 Alexander Khrukin <akhrukin@mandriva.org> 0.2.7-2mdv2012.0
-+ Revision: 707635
-- added macroses insteed of build scripts
-
-* Thu Oct 27 2011 Alexander Khrukin <akhrukin@mandriva.org> 0.2.7-1
-+ Revision: 707561
-- imported package yaml-cpp
-
