@@ -37,7 +37,7 @@ The %{name}-devel package contains libraries and header files for
 developing applications that use %{name}.
 
 %prep
-%setup -q -n %{name}
+%setup -q -n yaml-cpp
 # Fix eol
 sed -i 's/\r//' license.txt
 
