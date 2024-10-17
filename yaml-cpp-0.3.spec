@@ -8,7 +8,7 @@ Release:	6
 Summary:	A YAML parser and emitter for C++
 Group:		Development/C++
 License:	MIT
-URL:		http://code.google.com/p/yaml-cpp/
+URL:		https://code.google.com/p/yaml-cpp/
 Source0:	http://yaml-cpp.googlecode.com/files/yaml-cpp-%{version}.tar.gz
 BuildRequires:	cmake
 
